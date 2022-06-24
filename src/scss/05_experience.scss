@@ -1,0 +1,46 @@
+.experience{
+    margin-bottom: 0;
+    display: flex;//flex
+    align-items: center;
+    overflow: hidden;
+    &-text{
+        .title{
+            &::after{
+                width: 295px;
+                bottom: 10%;
+            }
+        }
+        .subtitle{
+            margin-bottom: 26px;
+        }
+        .tick{
+            margin-bottom: 18px;
+            display: flex;
+            span{
+                align-self: center;
+                margin-right: 16px;
+            }
+        }
+    }
+    &-img{
+        float: right;
+        right: -2%;
+        top: 0;
+        position: relative;
+        img{
+            max-width: 100% ;
+        }
+    }
+}
+.explore{
+    &-img{
+    float: left;
+    left: -2%;
+    top: 0;
+    position: relative;
+    img{
+        max-width: 100% ;
+    }
+}
+    margin-bottom: 20px;
+}

@@ -1,0 +1,39 @@
+.projects{
+    .container{
+        .btn-b{
+            display: none;      
+        }
+    }
+    .section-row{
+        .btn-b{
+            display: block;
+        }
+    }
+    &-products{
+        &__item{
+            max-width: 565px;
+            max-height: 635px;
+            width: 100%;
+            height: 635px;
+            position: relative;
+            border-radius: 8px;
+            h3{
+                text-align: center;
+                padding-top: 67px;
+                color: #1A0C06;
+            }
+            &:first-child{
+                background: #F5E6FE;
+                margin-right: 40px; 
+            }
+            &:last-child{
+                background: #F4ECE0;
+            }
+            img{
+                bottom: 0;
+                position: absolute;
+                max-width: 100%;
+            }
+        }
+    }
+}

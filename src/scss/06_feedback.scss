@@ -1,0 +1,43 @@
+.feedback{
+    &-text{
+        .title{
+            &::after{
+                width: 350px;
+            }
+        }
+    }
+    &-cards{
+        margin-top: 94px;
+    }
+    &-card{
+        background: #F4ECE0;
+        position: relative;
+        max-width: 50%;
+        padding: 80px 40px 40px;
+        margin-right: 40px;
+        &:last-child{
+            margin-right: 0;
+            background: #E3F8FA;
+        }
+        &__avatar{
+            position: absolute;
+            top: -50px;
+        }
+        &__profile{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            svg{
+                align-self: flex-end;
+            }
+        }
+        &__text{
+            margin-bottom: 20px;
+        }
+        &__stars{
+            .star{
+                margin-right: 10px;
+            }
+        }
+    }
+}

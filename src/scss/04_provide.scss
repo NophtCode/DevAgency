@@ -1,0 +1,54 @@
+
+.provide{
+    margin-bottom: 80px;
+    &-cards{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &-card{
+        text-align: center;
+        padding: 50px 40px;
+        margin-right: 40px;
+        background: #E3F8FA;
+        max-width: 363px;
+        &:nth-child(2){
+            background: #F4ECE0;
+        }
+        &:last-child{
+            margin-right: 0;
+            background: #F5E6FE
+        }
+        img{
+            margin-bottom: 35px;
+            padding: 21px;
+            border: 4px solid #fff;
+            box-shadow: 0px 43px 30px rgba(175, 25, 0, 0.08);
+            border-radius: 8px;
+        }
+        h5{
+            margin-bottom: 15px;
+            color: $graphite;
+        }
+        p{
+            margin-bottom: 18px;
+        }
+        a{
+            text-decoration: underline;
+            color: $graphite;
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+    .container{
+        .section-row{
+            .btn-b{
+                display: block;
+            }
+        }
+        .btn-b{
+            background: $merino;
+            display: none;
+        }
+    }
+}
